@@ -1,0 +1,33 @@
+# Core LLM routing
+litellm>=1.81.8
+python-dotenv>=1.2.1
+
+# Data validation
+pydantic>=2.12.5
+
+# Atomistic simulation
+ase>=3.28.0
+numpy>=2.4.3
+
+# ML interatomic potential
+torch>=2.8.0
+mace-torch>=0.3.16
+
+# Adsorbate placement and slab generation
+fairchem-core>=2.20.0
+
+# Thermodynamics / Pourbaix diagrams (requires MP API key)
+pymatgen>=2026.5.4
+
+# Structure resolution: label -> SMILES -> 3D geometry.  rdkit validates that a
+# proposed SMILES parses and reproduces the label's exact stoichiometry before
+# the species is accepted; rdkit2ase and acat build and place the adsorbate when
+# it is not in the fairchem adsorbate database.
+rdkit>=2026.3.1
+rdkit2ase>=0.1.13
+acat>=2.0.3
+
+# Analysis, tests and figures (not needed to run the pipeline itself)
+scipy>=1.17.1
+matplotlib>=3.10.9
+pytest>=9.0.3

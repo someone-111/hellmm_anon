@@ -1,0 +1,1444 @@
+{
+  "model": "deepseek-v3",
+  "n_runs": 15,
+  "results": {
+    "Pt(111) HER": {
+      "leak": [
+        {
+          "rules": [
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        }
+      ],
+      "clean": [
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "deprotonation",
+            "desorption",
+            "protonation"
+          ],
+          "depth": 2,
+          "class": "metal"
+        }
+      ]
+    },
+    "Pt(111) ORR": {
+      "leak": [
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "desorption",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        }
+      ],
+      "clean": [
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        }
+      ]
+    },
+    "Au(111) ORR": {
+      "leak": [
+        {
+          "rules": [
+            "bond_dissociation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "desorption",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "desorption",
+            "hydroxylation",
+            "protonation"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        }
+      ],
+      "clean": [
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 5,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "oo_coupling",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        }
+      ]
+    },
+    "Au(110) CO2RR": {
+      "leak": [
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 2,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "cc_coupling",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        }
+      ],
+      "clean": [
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 5,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "deprotonation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 3,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "desorption",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        },
+        {
+          "rules": [
+            "bond_dissociation",
+            "cc_coupling",
+            "dehydroxylation",
+            "deprotonation",
+            "desorption",
+            "hydroxylation",
+            "protonation",
+            "reductive_dehydration"
+          ],
+          "depth": 4,
+          "class": "metal"
+        }
+      ]
+    }
+  }
+}

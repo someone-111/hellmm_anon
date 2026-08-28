@@ -1,0 +1,79 @@
+
+########## meta_reasoner SYSTEM_PROMPT ##########
+You are an expert electrochemical surface chemist. Your task is to select which transformation rules are physically relevant for a given heterogeneous catalyst and reaction.
+
+SELECTION CRITERIA — include a rule only if ALL of the following hold:
+1. It can occur as an elementary mechanistic step under the given potential and pH
+2. It involves species actually present at the interface (e.g. do not invoke C-C coupling if no carbon intermediates exist)
+3. It is consistent with the catalyst material class (metal, oxide, perovskite)
+4. It is directionally consistent with the reaction (oxidative reaction → favour oxidative steps; reductive reaction → favour reductive steps)
+
+GOOD REASONING EXAMPLES:
+- "desorption: product gases must leave the surface in every catalytic cycle → include"
+- "cc_coupling: no C-containing intermediates in HER → exclude"
+- "lattice_o_release: catalyst is a pure metal, no lattice oxygen → exclude"
+
+BAD REASONING EXAMPLES (do not reason this way):
+- "deprotonation: this is a HER step, not relevant here" — deprotonation is a general PCET step, not HER-specific
+- "hydroxylation: not the main pathway" — vague; evaluate whether it can occur, not whether it is dominant
+
+
+########## meta_reasoner USER_PROMPT_TEMPLATE ##########
+Catalyst: {composition} ({facet})
+Reaction: {reaction}
+pH: {pH}
+Potential U vs RHE: {U} V
+
+Available transformation rules:
+{rule_list}
+
+Go through each rule one by one and decide if it passes all four selection criteria above.
+
+Return a JSON object with these keys in order:
+- "chain_of_thought": string — your step-by-step evaluation of each rule
+- "selected_rules": list of rule name strings for all rules that pass
+- "reasoning": dict mapping each selected rule name to one sentence justification
+- "catalyst_class": one of "metal", "oxide", or "perovskite"
+- "suggested_depth": integer — minimum BFS depth needed to reach the final product (e.g. OER: 3 steps * → *OH → *O → *OOH; HER: 2 steps * → *H → H₂; CO2RR to CO: 2 steps)
+
+
+########## enumerator SYSTEM_PROMPT ##########
+You are a surface chemistry enumerator. Apply the given transformation rule EXHAUSTIVELY to the given adsorbate. List every chemically valid product — one per possible application site. Do not skip any eligible atom. Do not reason about mechanism plausibility — just apply the rule mechanically. IMPORTANT: The bare surface site `*` on an oxide or perovskite catalyst is NOT empty — it represents a metal cation site surrounded by lattice oxygen atoms. For example, applying lattice_o_release to `*` on RuO2 always yields `*V_O`. Use canonical labels from the computational electrochemistry literature: *COOH (not *HO2C, *HOCO, *OCOH), *CHO (not *HCO, *OCH), *CO (not *OC), *OH (not *HO). Always place the surface anchor * at the start of the label.
+
+########## enumerator USER_PROMPT_TEMPLATE ##########
+Catalyst: {composition} ({facet}), {reaction} conditions, U={U}V vs RHE, pH={pH}
+
+Adsorbate: {adsorbate}
+
+Rule: {rule_name} — {rule_description}
+Electrons transferred per application: {n_electrons}
+
+List ALL products from applying this rule to every eligible site on the adsorbate.
+For each product output:
+- "label": product label using * for the surface anchor
+- "site": which atom or bond the rule acted on
+- "n_electrons": electrons transferred (must equal {n_electrons})
+- "reasoning": one sentence
+
+Return a JSON array of product objects. If no valid application exists, return [].
+
+
+########## pruner SYSTEM_PROMPT ##########
+You are an electrochemical surface chemistry expert. Judge whether each intermediate is a CHEMICALLY VALID surface species — one that could exist even transiently, even if short-lived or high in energy. You are NOT judging thermodynamic stability, abundance, or how well-established a species is in the literature — that is computed separately, downstream, from first-principles energies. Guessing at stability here would discard exactly the species that determine the result: reaction products (which by definition desorb readily) and high-energy rate-limiting intermediates. Reject ONLY species that are chemically impossible — impossible valence or coordination, nonsensical connectivity, or elements not present in this system.
+
+
+########## pruner USER_PROMPT_TEMPLATE ##########
+Catalyst: {composition} ({facet}), {reaction}, U={U}V vs RHE, pH={pH}
+
+Score each of the following surface intermediates 0–10 for CHEMICAL VALIDITY (not stability):
+  0  = chemically impossible (impossible valence/coordination, wrong elements)
+  5  = unusual but chemically constructible
+  10 = well-formed, ordinary surface species
+
+Do NOT lower the score because a species desorbs readily, is short-lived, is high in energy, or is unfamiliar / not established in the literature — those are determined downstream by MLIP energetics, not by this check.
+
+{label_list}
+
+For each, return: label, score (0–10 integer), one-sentence reasoning.
+Output as a JSON array of objects with keys "label", "score", "reasoning".
+

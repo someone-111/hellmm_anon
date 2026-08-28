@@ -1,0 +1,93 @@
+arm,run,catalyst,status,feasible,U_onset,eta,limiting_step,dG_chem_max,pathway,n_pathways
+deepseek-v3,10766639,Pt(111)_HER,ok,True,0.1457,-0.1457,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3,10766639,Au(110)_CO2RR,ok,True,-0.5424,0.4384,*CO2 → *CHO2,0.2691,*CO2 → *CHO2 → *CH2O2 → *CHO → *CO → *,12
+deepseek-v3,10766639,Pt(111)_ORR,ok,True,0.2653,0.9647,*O → *OH,-0.0329,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,1
+deepseek-v3,10766639,Au(111)_ORR,infeasible,False,-999.0,999.0,*OOH → *OOHOH,-0.1631,*OO → *OOH → *OOHOH → *O → *OH → *HOH → *,10
+deepseek-v3,10766641,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3,10766641,Au(110)_CO2RR,ok,True,-0.7643,0.6603,*CO2 → *COOH,0.2601,*CO2 → *COOH → *CO → *,3
+deepseek-v3,10766641,Au(111)_ORR,ok,True,0.568,0.662,*OO → *OOH,-0.171,*OO → *OOH → *O → *OH → *OH2 → *,9
+deepseek-v3,10766641,Pt(111)_ORR,ok,True,0.2652,0.9648,*O → *OH,-0.0332,*OO → *OOH → *O → *OH → *H2O → *,23
+deepseek-v3,10766642,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3,10766642,Au(111)_ORR,ok,True,0.616,0.614,*OO → *OOH,-0.1687,*OO → *OOH → *O → *OH → *HOH → *,8
+deepseek-v3,10766642,Au(110)_CO2RR,ok,True,-0.741,0.637,*CO2 → *COOH,0.2525,*CO2 → *COOH → *CO → *,6
+deepseek-v3,10766642,Pt(111)_ORR,ok,True,0.3154,0.9146,*OO → *OOH,0.0103,*OO → *OOH → *O(OH)H → *OH → *H2O → *,24
+deepseek-v3,10766643,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,5
+deepseek-v3,10766643,Au(110)_CO2RR,ok,True,-0.5509,0.4469,*CO2 → *CHO2,0.2562,*CO2 → *CHO2 → *CO → *,20
+deepseek-v3,10766643,Pt(111)_ORR,ok,True,0.313,0.917,*OO → *OOH,-0.0816,*OO → *OOH → *O → *OH → *H2O → *,2
+deepseek-v3,10766643,Au(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v3,10766644,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,1
+deepseek-v3,10766644,Au(110)_CO2RR,ok,True,-0.5503,0.4463,*CO2 → *CHO2,0.2652,*CO2 → *CHO2 → *CO → *,2
+deepseek-v3,10766644,Pt(111)_ORR,ok,True,0.2654,0.9646,*O → *OH,-0.0132,*OO → *OOH → *O → *OH → *H2O → *,2
+deepseek-v3,10766644,Au(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v3,10766645,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3595,* → *H → *H2 → *,1
+deepseek-v3,10766645,Au(110)_CO2RR,ok,True,-0.7479,0.6439,*CO2 → *COOH,0.2601,*CO2 → *COOH → *CO → *,1
+deepseek-v3,10766645,Au(111)_ORR,ok,True,0.5682,0.6618,*OO → *OOH,-0.1703,*OO → *OOH → *O(OH)H → *OH → *H2O → *,3
+deepseek-v3,10766645,Pt(111)_ORR,ok,True,0.3136,0.9164,*OO → *OOH,-0.0881,*OO → *OOH → *OOH2 → *OH → *H2O → *,3
+deepseek-v3,10766646,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3595,* → *H → *H2 → *,2
+deepseek-v3,10766646,Au(110)_CO2RR,ok,True,-0.5512,0.4472,*CO2 → *OCHO,0.341,*CO2 → *OCHO → *HCOOH → *CHO → *CO → *,6
+deepseek-v3,10766646,Pt(111)_ORR,infeasible,False,-999.0,999.0,*OOH → *OOHOH,-0.0116,*OO → *OOH → *OOHOH → *O → *OH → *H2O → *,6
+deepseek-v3,10766646,Au(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v3,10766647,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3,10766647,Au(110)_CO2RR,ok,True,-0.5302,0.4262,*CO2 → *OCHO,1.9061,*CO2 → *OCHO → *OCO → *COOH → *CO → *,6
+deepseek-v3,10766647,Au(111)_ORR,ok,True,0.5704,0.6596,*OO → *OOH,-0.1589,*OO → *OOH → *O(OH2) → *OH → *H2O → *,5
+deepseek-v3,10766647,Pt(111)_ORR,ok,True,0.2654,0.9646,*O → *OH,-0.0094,*OO → *OOH → *O → *OH → *H2O → *,10
+deepseek-v3,10766648,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3,10766648,Au(110)_CO2RR,ok,True,-0.7493,0.6453,*CO2 → *COOH,0.2601,*CO2 → *COOH → *CO → *,1
+deepseek-v3,10766648,Au(111)_ORR,ok,True,0.5687,0.6613,*OO → *OOH,-0.1602,*OO → *OOH → *OOH2 → *OH → *H2O → *,3
+deepseek-v3,10766648,Pt(111)_ORR,ok,True,0.3151,0.9149,*OO → *OOH,-0.0862,*OO → *OOH → *OOH2 → *OH → *H2O → *,30
+deepseek-v3,10766649,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3,10766649,Au(110)_CO2RR,ok,True,-0.7369,0.6329,*CO2 → *COOH,0.2582,*CO2 → *COOH → *CO → *,3
+deepseek-v3,10766649,Pt(111)_ORR,infeasible,False,-999.0,999.0,*OOH → *OOHOH,-0.0097,*OO → *OOH → *OOHOH → *O → *OH → *HOH → *,10
+deepseek-v3,10766649,Au(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v4-pro,10767243,Au(110)_CO2RR,ok,True,-0.5254,0.4214,*CO2 → *OCHO,0.3732,*CO2 → *OCHO → *HCOOH → *COOH → *CO → *,7
+deepseek-v4-pro,10767243,Au(111)_ORR,ok,True,0.5608,0.6692,*OO → *OOH,-0.1588,*OO → *OOH → *OOH2 → *OH → *H2O → *,4
+deepseek-v4-pro,10767243,Pt(111)_ORR,ok,True,0.3066,0.9234,*OO → *OOH,-0.0108,*OO → *OOH → *OOH2 → *OOH3 → *H2O → *,5
+deepseek-v4-pro,10767243,Pt(111)_HER,no_pathway,False,,,,,,0
+deepseek-v4-pro,10767247,Au(110)_CO2RR,ok,True,-0.7461,0.6421,*CO2 → *COOH,0.2567,*CO2 → *COOH → *CO → *,1
+deepseek-v4-pro,10767247,Au(111)_ORR,ok,True,0.5612,0.6688,*OO → *OOH,-0.1614,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,3
+deepseek-v4-pro,10767247,Pt(111)_ORR,ok,True,0.3097,0.9203,*OO → *OOH,-0.0214,*OO → *OOH → *OOH2 → *OH → *H2O → *,3
+deepseek-v4-pro,10767247,Pt(111)_HER,no_pathway,False,,,,,,0
+deepseek-v4-pro,10767248,Au(110)_CO2RR,ok,True,-0.7433,0.6393,*CO2 → *COOH,0.2568,*CO2 → *COOH → *CO → *,1
+deepseek-v4-pro,10767248,Au(111)_ORR,ok,True,0.5607,0.6693,*OO → *OOH,-0.1614,*OO → *OOH → *OOH2 → *OOH3 → *H2O → *,5
+deepseek-v4-pro,10767248,Pt(111)_ORR,ok,True,0.2657,0.9643,*O → *OH,-0.0199,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,1
+deepseek-v4-pro,10767248,Pt(111)_HER,no_pathway,False,,,,,,0
+deepseek-v3.2,10770853,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3595,* → *H → *H2 → *,1
+deepseek-v3.2,10770853,Au(110)_CO2RR,ok,True,-0.5245,0.4205,*CO2 → *OCHO,0.26,*CO2 → *OCHO → *HCOOH → *CO → *,14
+deepseek-v3.2,10770853,Au(111)_ORR,ok,True,0.5682,0.6618,*OO → *OOH,-0.1602,*OO → *OOH → *O → *OH → *H2O → *,1
+deepseek-v3.2,10770853,Pt(111)_ORR,incomplete_energies,False,,,,,,3
+deepseek-v3.2,10770854,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3.2,10770854,Au(110)_CO2RR,ok,True,-0.5542,0.4502,*CO2 → *OCHO,0.2543,*CO2 → *OCHO → *COOH → *CO → *,4
+deepseek-v3.2,10770854,Pt(111)_ORR,ok,True,0.3129,0.9171,*OO → *OOH,-0.0333,*OO → *OOH → *OOHH → *OH → *OH2 → *,3
+deepseek-v3.2,10770854,Au(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v3.2,10770855,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,1
+deepseek-v3.2,10770855,Au(111)_ORR,ok,True,0.6131,0.6169,*OO → *OOH,-0.1749,*OO → *OOH → *O(OH)H → *O → *OH → *H2O → *,1
+deepseek-v3.2,10770855,Au(110)_CO2RR,ok,True,-0.7401,0.6361,*CO2 → *COOH,0.2525,*CO2 → *COOH → *CO → *,4
+deepseek-v3.2,10770855,Pt(111)_ORR,ok,True,0.3149,0.9151,*OO → *OOH,0.0031,*OO → *OOH → *O(OH)H → *OH → *H2O → *,57
+deepseek-v3.2,10770856,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3595,* → *H → *H2 → *,1
+deepseek-v3.2,10770856,Au(110)_CO2RR,ok,True,-0.7227,0.6187,*CO2 → *COOH,0.2582,*CO2 → *COOH → *CO → *,2
+deepseek-v3.2,10770856,Au(111)_ORR,ok,True,0.5751,0.6549,*OO → *OOH,-0.1725,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,1
+deepseek-v3.2,10770856,Pt(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v3.2,10770857,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,2
+deepseek-v3.2,10770857,Au(110)_CO2RR,ok,True,-0.732,0.628,*CO2 → *COOH,0.2583,*CO2 → *COOH → *CO → *,8
+deepseek-v3.2,10770857,Pt(111)_ORR,ok,True,0.2652,0.9648,*O → *OH,-0.0343,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,1
+deepseek-v3.2,10770857,Au(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v3.2,10770858,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,1
+deepseek-v3.2,10770858,Au(111)_ORR,ok,True,0.5677,0.6623,*OO → *OOH,-0.1612,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,1
+deepseek-v3.2,10770858,Au(110)_CO2RR,ok,True,-0.7677,0.6637,*CO2 → *COOH,0.2601,*CO2 → *COOH → *CO → *,2
+deepseek-v3.2,10770858,Pt(111)_ORR,ok,True,0.2654,0.9646,*O → *OH,-0.0882,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,1
+deepseek-v3.2,10770859,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3594,* → *H → *H2 → *,9
+deepseek-v3.2,10770859,Au(110)_CO2RR,ok,True,-0.5286,0.4246,*CO2 → *OCHO,0.2562,*CO2 → *OCHO → *CO → *,14
+deepseek-v3.2,10770859,Pt(111)_ORR,ok,True,0.3132,0.9168,*OO → *OOH,-0.0817,*OO → *OOH → *OOH2 → *OH → *H2O → *,2
+deepseek-v3.2,10770859,Au(111)_ORR,no_pathway,False,,,,,,0
+deepseek-v3.2,10770860,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3595,* → *H → *H2 → *,1
+deepseek-v3.2,10770860,Au(110)_CO2RR,ok,True,-0.7649,0.6609,*CO2 → *COOH,0.2601,*CO2 → *COOH → *CO → *,3
+deepseek-v3.2,10770860,Pt(111)_ORR,ok,True,0.3062,0.9238,*OO → *OOH,-0.0777,*OO → *OOH → *OOHH → *OH → *H2O → *,4
+deepseek-v3.2,10770860,Au(111)_ORR,incomplete_energies,False,,,,,,1
+deepseek-v3.2,10770861,Pt(111)_HER,run_failed,False,,,,,,
+deepseek-v3.2,10770861,Pt(111)_ORR,run_failed,False,,,,,,
+deepseek-v3.2,10770861,Au(111)_ORR,run_failed,False,,,,,,
+deepseek-v3.2,10770861,Au(110)_CO2RR,run_failed,False,,,,,,
+deepseek-v3.2,10770862,Pt(111)_HER,ok,True,0.1458,-0.1458,*H → *H2,0.3595,* → *H → *H2 → *,1
+deepseek-v3.2,10770862,Au(110)_CO2RR,ok,True,-0.5309,0.4269,*CO2 → *OCHO,1.8677,*CO2 → *OCHO → *OCO → *COOH → *CO → *,6
+deepseek-v3.2,10770862,Au(111)_ORR,ok,True,0.5694,0.6606,*OO → *OOH,-0.1031,*OO → *OOH → *O → *OH → *H2O → *,3
+deepseek-v3.2,10770862,Pt(111)_ORR,ok,True,0.2655,0.9645,*O → *OH,-0.0123,*OO → *OOH → *OOH2 → *O → *OH → *H2O → *,1
