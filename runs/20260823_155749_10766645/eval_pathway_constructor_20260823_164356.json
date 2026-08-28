@@ -1,0 +1,516 @@
+{
+  "timestamp": "20260823_164356",
+  "enumerator_file": "runs/20260823_155749_10766645/eval_enumerator_deepseek-v3_20260823_163821.json",
+  "pruner_file": "runs/20260823_155749_10766645/eval_pruner_deepseek-v3_20260823_164352.json",
+  "results": [
+    {
+      "context": {
+        "composition": "Pt",
+        "facet": "111",
+        "reaction": "HER",
+        "pH": 0.0,
+        "U": 0.0
+      },
+      "starting_adsorbate": "*",
+      "n_pathways": 1,
+      "pathway_labels": [
+        "*H",
+        "*H2"
+      ],
+      "trapped_intermediates": [],
+      "pathways": [
+        {
+          "intermediates": [
+            "*",
+            "*H",
+            "*H2",
+            "*"
+          ],
+          "n_electrons_total": 2,
+          "steps": [
+            {
+              "parent": "*",
+              "product": "*H",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H",
+              "product": "*H2",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H2",
+              "product": "*",
+              "rule": "product_desorption",
+              "n_electrons": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context": {
+        "composition": "Pt",
+        "facet": "111",
+        "reaction": "ORR",
+        "pH": 0.0,
+        "U": 0.78
+      },
+      "starting_adsorbate": "*OO",
+      "n_pathways": 3,
+      "pathway_labels": [
+        "*H2O",
+        "*O",
+        "*OH",
+        "*OO",
+        "*OOH",
+        "*OOH2",
+        "*OOHOH"
+      ],
+      "trapped_intermediates": [
+        "*H2",
+        "*O2(OH)",
+        "*OOH2OH",
+        "*OOOH"
+      ],
+      "pathways": [
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*OOH2",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "n_electrons_total": 4,
+          "steps": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OOH",
+              "product": "*OOH2",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OOH2",
+              "product": "*OH",
+              "rule": "reductive_dehydration",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "rule": "product_desorption",
+              "n_electrons": 0
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*O",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "n_electrons_total": 4,
+          "steps": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OOH",
+              "product": "*O",
+              "rule": "reductive_dehydration",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*O",
+              "product": "*OH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "rule": "product_desorption",
+              "n_electrons": 0
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*OOHOH",
+            "*O",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "n_electrons_total": 4,
+          "steps": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OOH",
+              "product": "*OOHOH",
+              "rule": "hydroxylation",
+              "n_electrons": 1
+            },
+            {
+              "parent": "*OOHOH",
+              "product": "*O",
+              "rule": "desorption",
+              "n_electrons": 0
+            },
+            {
+              "parent": "*O",
+              "product": "*OH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "rule": "product_desorption",
+              "n_electrons": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context": {
+        "composition": "Au",
+        "facet": "111",
+        "reaction": "ORR",
+        "pH": 0.0,
+        "U": 0.78
+      },
+      "starting_adsorbate": "*OO",
+      "n_pathways": 3,
+      "pathway_labels": [
+        "*H2O",
+        "*O",
+        "*O(OH)H",
+        "*OH",
+        "*OO",
+        "*OOH"
+      ],
+      "trapped_intermediates": [],
+      "pathways": [
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*O(OH)H",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "n_electrons_total": 4,
+          "steps": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OOH",
+              "product": "*O(OH)H",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*O(OH)H",
+              "product": "*OH",
+              "rule": "reductive_dehydration",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "rule": "desorption",
+              "n_electrons": 0
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*O",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "n_electrons_total": 4,
+          "steps": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OOH",
+              "product": "*O",
+              "rule": "reductive_dehydration",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*O",
+              "product": "*OH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "rule": "desorption",
+              "n_electrons": 0
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*O(OH)H",
+            "*O",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "n_electrons_total": 4,
+          "steps": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OOH",
+              "product": "*O(OH)H",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*O(OH)H",
+              "product": "*O",
+              "rule": "bond_dissociation",
+              "n_electrons": 0
+            },
+            {
+              "parent": "*O",
+              "product": "*OH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "rule": "desorption",
+              "n_electrons": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context": {
+        "composition": "Au",
+        "facet": "110",
+        "reaction": "CO2RR",
+        "pH": 7.0,
+        "U": 0.1
+      },
+      "starting_adsorbate": "*CO2",
+      "n_pathways": 3,
+      "pathway_labels": [
+        "*CHO",
+        "*CO",
+        "*CO-CHO",
+        "*CO-CO",
+        "*CO2",
+        "*COO",
+        "*COOH"
+      ],
+      "trapped_intermediates": [
+        "*C(O)OOH",
+        "*CH",
+        "*COH(OH)",
+        "*COOOH",
+        "*H",
+        "*OCH2O",
+        "*OCHO",
+        "*OH"
+      ],
+      "pathways": [
+        {
+          "intermediates": [
+            "*CO2",
+            "*COOH",
+            "*CO",
+            "*"
+          ],
+          "n_electrons_total": 2,
+          "steps": [
+            {
+              "parent": "*CO2",
+              "product": "*COOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*COOH",
+              "product": "*CO",
+              "rule": "reductive_dehydration",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*CO",
+              "product": "*",
+              "rule": "desorption",
+              "n_electrons": 0
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*CO2",
+            "*COOH",
+            "*COO",
+            "*CO",
+            "*"
+          ],
+          "n_electrons_total": 2,
+          "steps": [
+            {
+              "parent": "*CO2",
+              "product": "*COOH",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*COOH",
+              "product": "*COO",
+              "rule": "deprotonation",
+              "n_electrons": 1
+            },
+            {
+              "parent": "*COO",
+              "product": "*CO",
+              "rule": "bond_dissociation",
+              "n_electrons": 0
+            },
+            {
+              "parent": "*CO",
+              "product": "*",
+              "rule": "desorption",
+              "n_electrons": 0
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*CO2",
+            "*CO-CO",
+            "*CO-CHO",
+            "*CHO",
+            "*CO",
+            "*"
+          ],
+          "n_electrons_total": 2,
+          "steps": [
+            {
+              "parent": "*CO2",
+              "product": "*CO-CO",
+              "rule": "cc_coupling",
+              "n_electrons": 0
+            },
+            {
+              "parent": "*CO-CO",
+              "product": "*CO-CHO",
+              "rule": "protonation",
+              "n_electrons": -1
+            },
+            {
+              "parent": "*CO-CHO",
+              "product": "*CHO",
+              "rule": "desorption",
+              "n_electrons": 0
+            },
+            {
+              "parent": "*CHO",
+              "product": "*CO",
+              "rule": "deprotonation",
+              "n_electrons": 1
+            },
+            {
+              "parent": "*CO",
+              "product": "*",
+              "rule": "desorption",
+              "n_electrons": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,745 @@
+{
+  "mlip_model": "esen-sm-conserving-all-oc25",
+  "results": [
+    {
+      "catalyst": "Pt(111)_HER",
+      "reaction": "HER",
+      "pH": 0.0,
+      "U": 0.0,
+      "U_ideal": 0.0,
+      "U_onset": 0.1457972176945705,
+      "overpotential": -0.1457972176945705,
+      "limiting_step": "*H \u2192 *H2",
+      "top3_steps": [
+        {
+          "rank": 1,
+          "parent": "*H",
+          "product": "*H2",
+          "dg0": -0.1458
+        },
+        {
+          "rank": 2,
+          "parent": "*",
+          "product": "*H",
+          "dg0": -0.2137
+        }
+      ],
+      "best_pathway": [
+        "*",
+        "*H",
+        "*H2",
+        "*"
+      ],
+      "dG_chem_max": 0.35945470682508357,
+      "chemical_limited": true,
+      "step_energies": [
+        {
+          "parent": "*",
+          "product": "*H",
+          "n_electrons": -1,
+          "rule": "protonation",
+          "delta_e": -0.4332162670350348,
+          "delta_zpe": 0.046974883173244164,
+          "delta_ts": -0.1725838947312775,
+          "delta_g": -0.21365748913051313
+        },
+        {
+          "parent": "*H",
+          "product": "*H2",
+          "n_electrons": -1,
+          "rule": "protonation",
+          "delta_e": -0.32707546489915185,
+          "delta_zpe": -0.009965989910274253,
+          "delta_ts": -0.1912442371148556,
+          "delta_g": -0.1457972176945705
+        },
+        {
+          "parent": "*H2",
+          "product": "*",
+          "n_electrons": 0,
+          "rule": "product_desorption",
+          "delta_e": 0.7602917319341866,
+          "delta_zpe": -0.03700889326296991,
+          "delta_ts": 0.3638281318461331,
+          "delta_g": 0.35945470682508357
+        }
+      ],
+      "all_pathways": [
+        {
+          "intermediates": [
+            "*",
+            "*H",
+            "*H2",
+            "*"
+          ],
+          "U_onset": 0.1457972176945705,
+          "overpotential": -0.1457972176945705,
+          "limiting_step": "*H \u2192 *H2",
+          "missing_energies": [],
+          "is_best": true,
+          "step_energies": [
+            {
+              "parent": "*",
+              "product": "*H",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.4332162670350348,
+              "delta_zpe": 0.046974883173244164,
+              "delta_ts": -0.1725838947312775,
+              "delta_g": -0.21365748913051313
+            },
+            {
+              "parent": "*H",
+              "product": "*H2",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.32707546489915185,
+              "delta_zpe": -0.009965989910274253,
+              "delta_ts": -0.1912442371148556,
+              "delta_g": -0.1457972176945705
+            },
+            {
+              "parent": "*H2",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "product_desorption",
+              "delta_e": 0.7602917319341866,
+              "delta_zpe": -0.03700889326296991,
+              "delta_ts": 0.3638281318461331,
+              "delta_g": 0.35945470682508357
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalyst": "Au(110)_CO2RR",
+      "reaction": "CO2RR",
+      "pH": 7.0,
+      "U": 0.1,
+      "U_ideal": -0.104,
+      "U_onset": -0.7648511680245131,
+      "overpotential": 0.6608511680245132,
+      "limiting_step": "*CO2 \u2192 *COOH",
+      "top3_steps": [
+        {
+          "rank": 1,
+          "parent": "*CO2",
+          "product": "*COOH",
+          "dg0": 0.7649
+        },
+        {
+          "rank": 2,
+          "parent": "*COOH",
+          "product": "*CO",
+          "dg0": -0.4915
+        }
+      ],
+      "best_pathway": [
+        "*CO2",
+        "*COOH",
+        "*CO",
+        "*"
+      ],
+      "dG_chem_max": 0.26014722899521003,
+      "chemical_limited": true,
+      "step_energies": [
+        {
+          "parent": "*CO2",
+          "product": "*COOH",
+          "n_electrons": -1,
+          "rule": "protonation",
+          "delta_e": 0.30517401511572473,
+          "delta_zpe": 0.15343460761818595,
+          "delta_ts": -0.3062425452906024,
+          "delta_g": 0.8648511680245131
+        },
+        {
+          "parent": "*COOH",
+          "product": "*CO",
+          "n_electrons": -1,
+          "rule": "reductive_dehydration",
+          "delta_e": -0.13973773136878798,
+          "delta_zpe": 0.01149078437257503,
+          "delta_ts": 0.363276247284975,
+          "delta_g": -0.391523194281188
+        },
+        {
+          "parent": "*CO",
+          "product": "*",
+          "n_electrons": 0,
+          "rule": "desorption",
+          "delta_e": 0.7533136842447288,
+          "delta_zpe": -0.055202410978257316,
+          "delta_ts": 0.43796404427126145,
+          "delta_g": 0.26014722899521003
+        }
+      ],
+      "all_pathways": [
+        {
+          "intermediates": [
+            "*CO2",
+            "*COOH",
+            "*CO",
+            "*"
+          ],
+          "U_onset": -0.7648511680245131,
+          "overpotential": 0.6608511680245132,
+          "limiting_step": "*CO2 \u2192 *COOH",
+          "missing_energies": [],
+          "is_best": true,
+          "step_energies": [
+            {
+              "parent": "*CO2",
+              "product": "*COOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": 0.30517401511572473,
+              "delta_zpe": 0.15343460761818595,
+              "delta_ts": -0.3062425452906024,
+              "delta_g": 0.8648511680245131
+            },
+            {
+              "parent": "*COOH",
+              "product": "*CO",
+              "n_electrons": -1,
+              "rule": "reductive_dehydration",
+              "delta_e": -0.13973773136878798,
+              "delta_zpe": 0.01149078437257503,
+              "delta_ts": 0.363276247284975,
+              "delta_g": -0.391523194281188
+            },
+            {
+              "parent": "*CO",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": 0.7533136842447288,
+              "delta_zpe": -0.055202410978257316,
+              "delta_ts": 0.43796404427126145,
+              "delta_g": 0.26014722899521003
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*CO2",
+            "*COOH",
+            "*HCOOH",
+            "*CHO",
+            "*CO",
+            "*"
+          ],
+          "U_onset": -0.7648511680245131,
+          "overpotential": 0.6608511680245132,
+          "limiting_step": "*CO2 \u2192 *COOH",
+          "missing_energies": [],
+          "is_best": false,
+          "step_energies": [
+            {
+              "parent": "*CO2",
+              "product": "*COOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": 0.30517401511572473,
+              "delta_zpe": 0.15343460761818595,
+              "delta_ts": -0.3062425452906024,
+              "delta_g": 0.8648511680245131
+            },
+            {
+              "parent": "*COOH",
+              "product": "*HCOOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.6010096177180451,
+              "delta_zpe": 0.154848051696858,
+              "delta_ts": -0.05116687837588185,
+              "delta_g": -0.29499468764530523
+            },
+            {
+              "parent": "*HCOOH",
+              "product": "*CHO",
+              "n_electrons": 0,
+              "rule": "dehydroxylation",
+              "delta_e": 0.6148036821921679,
+              "delta_zpe": -0.024675985297912206,
+              "delta_ts": 0.24655550152122052,
+              "delta_g": 0.3435721953730352
+            },
+            {
+              "parent": "*CHO",
+              "product": "*CO",
+              "n_electrons": 0,
+              "rule": "bond_dissociation",
+              "delta_e": -0.15353179584291077,
+              "delta_zpe": -0.11868128202637077,
+              "delta_ts": 0.16788762413963632,
+              "delta_g": -0.4401007020089178
+            },
+            {
+              "parent": "*CO",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": 0.7533136842447288,
+              "delta_zpe": -0.055202410978257316,
+              "delta_ts": 0.43796404427126145,
+              "delta_g": 0.26014722899521003
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*CO2",
+            "*COOH",
+            "*HCOOH",
+            "*CHO",
+            "*CO",
+            "*"
+          ],
+          "U_onset": -0.7648511680245131,
+          "overpotential": 0.6608511680245132,
+          "limiting_step": "*CO2 \u2192 *COOH",
+          "missing_energies": [],
+          "is_best": false,
+          "step_energies": [
+            {
+              "parent": "*CO2",
+              "product": "*COOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": 0.30517401511572473,
+              "delta_zpe": 0.15343460761818595,
+              "delta_ts": -0.3062425452906024,
+              "delta_g": 0.8648511680245131
+            },
+            {
+              "parent": "*COOH",
+              "product": "*HCOOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.6010096177180451,
+              "delta_zpe": 0.154848051696858,
+              "delta_ts": -0.05116687837588185,
+              "delta_g": -0.29499468764530523
+            },
+            {
+              "parent": "*HCOOH",
+              "product": "*CHO",
+              "n_electrons": 0,
+              "rule": "bond_dissociation",
+              "delta_e": 0.6148036821921679,
+              "delta_zpe": -0.024675985297912206,
+              "delta_ts": 0.24655550152122052,
+              "delta_g": 0.3435721953730352
+            },
+            {
+              "parent": "*CHO",
+              "product": "*CO",
+              "n_electrons": 0,
+              "rule": "bond_dissociation",
+              "delta_e": -0.15353179584291077,
+              "delta_zpe": -0.11868128202637077,
+              "delta_ts": 0.16788762413963632,
+              "delta_g": -0.4401007020089178
+            },
+            {
+              "parent": "*CO",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": 0.7533136842447288,
+              "delta_zpe": -0.055202410978257316,
+              "delta_ts": 0.43796404427126145,
+              "delta_g": 0.26014722899521003
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "catalyst": "Pt(111)_ORR",
+      "reaction": "ORR",
+      "pH": 0.0,
+      "U": 0.78,
+      "U_ideal": 1.23,
+      "U_onset": 0.3062273204013215,
+      "overpotential": 0.9237726795986785,
+      "limiting_step": "*OO \u2192 *OOH",
+      "top3_steps": [
+        {
+          "rank": 1,
+          "parent": "*OO",
+          "product": "*OOH",
+          "dg0": -0.3062
+        },
+        {
+          "rank": 2,
+          "parent": "*OOH",
+          "product": "*OOHH",
+          "dg0": -0.4569
+        },
+        {
+          "rank": 3,
+          "parent": "*OH",
+          "product": "*H2O",
+          "dg0": -0.8731
+        }
+      ],
+      "best_pathway": [
+        "*OO",
+        "*OOH",
+        "*OOHH",
+        "*OH",
+        "*H2O",
+        "*"
+      ],
+      "dG_chem_max": -0.07770112801042839,
+      "chemical_limited": false,
+      "step_energies": [
+        {
+          "parent": "*OO",
+          "product": "*OOH",
+          "n_electrons": -1,
+          "rule": "protonation",
+          "delta_e": -0.5924860456601273,
+          "delta_zpe": 0.155190542819016,
+          "delta_ts": -0.13106818243978977,
+          "delta_g": 0.4737726795986785
+        },
+        {
+          "parent": "*OOH",
+          "product": "*OOHH",
+          "n_electrons": -1,
+          "rule": "protonation",
+          "delta_e": -0.7344854314205946,
+          "delta_zpe": 0.14820531330643588,
+          "delta_ts": -0.12934034691567353,
+          "delta_g": 0.32306022880151475
+        },
+        {
+          "parent": "*OOHH",
+          "product": "*OH",
+          "n_electrons": -1,
+          "rule": "reductive_dehydration",
+          "delta_e": -2.1659184097537008,
+          "delta_zpe": 0.07088483228800435,
+          "delta_ts": 0.18444656507968782,
+          "delta_g": -1.4994801425453843
+        },
+        {
+          "parent": "*OH",
+          "product": "*H2O",
+          "n_electrons": -1,
+          "rule": "protonation",
+          "delta_e": -1.1359776661409065,
+          "delta_zpe": 0.13450606236497498,
+          "delta_ts": -0.1283668781694629,
+          "delta_g": -0.09310472560646854
+        },
+        {
+          "parent": "*H2O",
+          "product": "*",
+          "n_electrons": 0,
+          "rule": "desorption",
+          "delta_e": 0.411260172048717,
+          "delta_zpe": -0.05911470315618339,
+          "delta_ts": 0.429846596902962,
+          "delta_g": -0.07770112801042839
+        }
+      ],
+      "all_pathways": [
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*OOHH",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "U_onset": 0.3062273204013215,
+          "overpotential": 0.9237726795986785,
+          "limiting_step": "*OO \u2192 *OOH",
+          "missing_energies": [],
+          "is_best": true,
+          "step_energies": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.5924860456601273,
+              "delta_zpe": 0.155190542819016,
+              "delta_ts": -0.13106818243978977,
+              "delta_g": 0.4737726795986785
+            },
+            {
+              "parent": "*OOH",
+              "product": "*OOHH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.7344854314205946,
+              "delta_zpe": 0.14820531330643588,
+              "delta_ts": -0.12934034691567353,
+              "delta_g": 0.32306022880151475
+            },
+            {
+              "parent": "*OOHH",
+              "product": "*OH",
+              "n_electrons": -1,
+              "rule": "reductive_dehydration",
+              "delta_e": -2.1659184097537008,
+              "delta_zpe": 0.07088483228800435,
+              "delta_ts": 0.18444656507968782,
+              "delta_g": -1.4994801425453843
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -1.1359776661409065,
+              "delta_zpe": 0.13450606236497498,
+              "delta_ts": -0.1283668781694629,
+              "delta_g": -0.09310472560646854
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": 0.411260172048717,
+              "delta_zpe": -0.05911470315618339,
+              "delta_ts": 0.429846596902962,
+              "delta_g": -0.07770112801042839
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*O",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "U_onset": 0.26546412965824573,
+          "overpotential": 0.9645358703417543,
+          "limiting_step": "*O \u2192 *OH",
+          "missing_energies": [],
+          "is_best": false,
+          "step_energies": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.5924860456601273,
+              "delta_zpe": 0.155190542819016,
+              "delta_ts": -0.13106818243978977,
+              "delta_g": 0.4737726795986785
+            },
+            {
+              "parent": "*OOH",
+              "product": "*O",
+              "n_electrons": -1,
+              "rule": "reductive_dehydration",
+              "delta_e": -2.3251851758112547,
+              "delta_zpe": 0.07140168259105906,
+              "delta_ts": 0.21717229086542802,
+              "delta_g": -1.6909557840856235
+            },
+            {
+              "parent": "*O",
+              "product": "*OH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.5752186653630407,
+              "delta_zpe": 0.14768846300338118,
+              "delta_ts": -0.16206607270141374,
+              "delta_g": 0.5145358703417543
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -1.1359776661409065,
+              "delta_zpe": 0.13450606236497498,
+              "delta_ts": -0.1283668781694629,
+              "delta_g": -0.09310472560646854
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": 0.411260172048717,
+              "delta_zpe": -0.05911470315618339,
+              "delta_ts": 0.429846596902962,
+              "delta_g": -0.07770112801042839
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*OOHH",
+            "*O",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "U_onset": 0.26546412965824573,
+          "overpotential": 0.9645358703417543,
+          "limiting_step": "*O \u2192 *OH",
+          "missing_energies": [],
+          "is_best": false,
+          "step_energies": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.5924860456601273,
+              "delta_zpe": 0.155190542819016,
+              "delta_ts": -0.13106818243978977,
+              "delta_g": 0.4737726795986785
+            },
+            {
+              "parent": "*OOH",
+              "product": "*OOHH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.7344854314205946,
+              "delta_zpe": 0.14820531330643588,
+              "delta_ts": -0.12934034691567353,
+              "delta_g": 0.32306022880151475
+            },
+            {
+              "parent": "*OOHH",
+              "product": "*O",
+              "n_electrons": 0,
+              "rule": "bond_dissociation",
+              "delta_e": -1.59069974439066,
+              "delta_zpe": -0.07680363071537682,
+              "delta_ts": 0.34651263778110153,
+              "delta_g": -2.0140160128871383
+            },
+            {
+              "parent": "*O",
+              "product": "*OH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.5752186653630407,
+              "delta_zpe": 0.14768846300338118,
+              "delta_ts": -0.16206607270141374,
+              "delta_g": 0.5145358703417543
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -1.1359776661409065,
+              "delta_zpe": 0.13450606236497498,
+              "delta_ts": -0.1283668781694629,
+              "delta_g": -0.09310472560646854
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": 0.411260172048717,
+              "delta_zpe": -0.05911470315618339,
+              "delta_ts": 0.429846596902962,
+              "delta_g": -0.07770112801042839
+            }
+          ]
+        },
+        {
+          "intermediates": [
+            "*OO",
+            "*OOH",
+            "*OOHH",
+            "*O",
+            "*OH",
+            "*H2O",
+            "*"
+          ],
+          "U_onset": 0.26546412965824573,
+          "overpotential": 0.9645358703417543,
+          "limiting_step": "*O \u2192 *OH",
+          "missing_energies": [],
+          "is_best": false,
+          "step_energies": [
+            {
+              "parent": "*OO",
+              "product": "*OOH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.5924860456601273,
+              "delta_zpe": 0.155190542819016,
+              "delta_ts": -0.13106818243978977,
+              "delta_g": 0.4737726795986785
+            },
+            {
+              "parent": "*OOH",
+              "product": "*OOHH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.7344854314205946,
+              "delta_zpe": 0.14820531330643588,
+              "delta_ts": -0.12934034691567353,
+              "delta_g": 0.32306022880151475
+            },
+            {
+              "parent": "*OOHH",
+              "product": "*O",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": -1.59069974439066,
+              "delta_zpe": -0.07680363071537682,
+              "delta_ts": 0.34651263778110153,
+              "delta_g": -2.0140160128871383
+            },
+            {
+              "parent": "*O",
+              "product": "*OH",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -0.5752186653630407,
+              "delta_zpe": 0.14768846300338118,
+              "delta_ts": -0.16206607270141374,
+              "delta_g": 0.5145358703417543
+            },
+            {
+              "parent": "*OH",
+              "product": "*H2O",
+              "n_electrons": -1,
+              "rule": "protonation",
+              "delta_e": -1.1359776661409065,
+              "delta_zpe": 0.13450606236497498,
+              "delta_ts": -0.1283668781694629,
+              "delta_g": -0.09310472560646854
+            },
+            {
+              "parent": "*H2O",
+              "product": "*",
+              "n_electrons": 0,
+              "rule": "desorption",
+              "delta_e": 0.411260172048717,
+              "delta_zpe": -0.05911470315618339,
+              "delta_ts": 0.429846596902962,
+              "delta_g": -0.07770112801042839
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
